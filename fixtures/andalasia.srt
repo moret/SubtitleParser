@@ -1,0 +1,18 @@
+1
+00:00:51,413 --> 00:00:53,310
+Era uma vez,
+
+2
+00:00:53,310 --> 00:00:56,585
+em um reino mágico
+chamado Andalasia,
+
+3
+00:00:56,585 --> 00:00:59,482
+uma rainha malvada.
+
+4
+00:00:59,482 --> 00:01:02,447
+Egoísta e cruel,
+vivia aterrorizada
+

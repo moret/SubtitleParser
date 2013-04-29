@@ -1,0 +1,14 @@
+<project name="SubtitleParser" basedir="." default="jar">
+    <property name="lib.dir" value="lib"/>
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+    <target name="compile" depends="clean">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="SubtitleParser.jar" basedir="build/classes"/>
+    </target>
+</project>
