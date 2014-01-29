@@ -38,7 +38,10 @@ public class SRTParserTest {
                 113310, 116585, "no céu tem pão?")
         );
         expectedSubtitleItems.add(new SubtitleItem(
-                116585, 119482, "")
+                116585, 118482, "")
+        );
+        expectedSubtitleItems.add(new SubtitleItem(
+                118585, 119482, "")
         );
         expectedSubtitleItems.add(new SubtitleItem(
                 119482, 122447, "E morreu.")
