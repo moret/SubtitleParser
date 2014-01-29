@@ -31,6 +31,21 @@ public class SRTParserTest {
         expectedSubtitleItems.add(new SubtitleItem(
                 59482, 62447, "Egoísta e cruel,\nvivia aterrorizada")
         );
+        expectedSubtitleItems.add(new SubtitleItem(
+                111413, 113310, "até que abriu os olhos e perguntou:")
+        );
+        expectedSubtitleItems.add(new SubtitleItem(
+                113310, 116585, "no céu tem pão?")
+        );
+        expectedSubtitleItems.add(new SubtitleItem(
+                116585, 119482, "")
+        );
+        expectedSubtitleItems.add(new SubtitleItem(
+                119482, 122447, "E morreu.")
+        );
+        expectedSubtitleItems.add(new SubtitleItem(
+                124482, 128447, "THE END")
+        );
 
         File srtFile = new File("fixtures/andalasia.srt");
         byte[] contents = new byte[(int) srtFile.length()];

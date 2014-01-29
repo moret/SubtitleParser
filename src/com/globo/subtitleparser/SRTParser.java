@@ -55,7 +55,8 @@ public class SRTParser {
                 for (int i = 2; i < blockLines.length; i++) {
                     sb.append(blockLines[i]).append("\n");
                 }
-                sb.deleteCharAt(sb.length() - 1);
+                if (sb.length() > 1)
+                    sb.deleteCharAt(sb.length() - 1);
                 subtitleItems.add(new SubtitleItem(
                         start.longValue(),
                         end.longValue(),
