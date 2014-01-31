@@ -9,7 +9,7 @@ import com.globo.subtitleparser.SubtitleItem;
 
 public class SRTParser {
     Pattern TRIM_PATTERN = Pattern.compile("^\\s+|\\s+$");
-    Pattern BLOCK_PATTERN = Pattern.compile("\n?\r?\n\r?\n");
+    Pattern BLOCK_PATTERN = Pattern.compile("\n?(\r?\n){2}");
     Pattern LINES_PATTERN = Pattern.compile("\r?\n");
     Pattern TIME_PATTERN = Pattern.compile(
             "([0-9]{2}):([0-9]{2}):([0-9]{2}),([0-9]*)?"
